@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="cart">
+
+    <section class="m-4">
+        <div class="container">
+            <div class="row justify-content-center text-uppercase text-center" id="row2">
+                <h1>cart</h1>
+                <table class="table-borderless bg-black">
+                    <thead>
+                        <th>id</th>
+                        <th>title</th>
+                        <th>price</th>
+                        <th>descripion</th>
+                        <th>image</th>
+                        <th>count</th>
+                        <th>remove</th>
+                    </thead>
+                    <tbody id="tBody">
+
+                    </tbody>
+                </table>
+                <div class="p-0">
+                    <button onclick="del_all()" class='btn btn-danger'>clear all</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/cart.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
